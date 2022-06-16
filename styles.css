@@ -1,0 +1,52 @@
+body{
+    background-color: blanchedalmond;
+}
+
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(18, 70, 18);
+    border-bottom: 10px solid salmon;
+}
+
+p a{
+    display: block;
+    float: right;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+p a:hover{
+    background-color: black;
+    opacity: 25%
+}
+.center{
+position: relative;
+text-align: center;
+color: darkslategrey;
+}
+
+footer{
+    list-style-type: none;
+    background-color: lightpink;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    border-bottom: 10px solid rgb(18, 70, 18);
+
+}
+
+.centerbottom{
+    list-style-type: none;
+    position: relative;
+    display: block;
+}
+.bottom{
+    border: 5px solid blanchedalmond;
+}
+form{
+    padding: 5px;
+}
